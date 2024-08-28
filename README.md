@@ -1,13 +1,13 @@
 # McHelper
 
-Proof of concept bota który pomaga ludzią w wserwerach mc
+Proof of concept bota który pomaga w rozwiązywaniu częstych problemów w serwerach mc
 
 Kontrybucje bardzo wskazane (szczególnie, że jest to mój pierwszy bot w JDA)
 
 ## Deweloperka
 
-`gradlew run` - uruchamia bota, tylko do deweloperki  
-`gradlew build` - tworzy jarka z bibliotekami, którego można ładnie, pięknie odpalić gdziekolwiek
+`gradlew run` - Uruchamia bota.
+`gradlew build` - Tworzy jarka z bibliotekami, którego można ładnie, pięknie odpalić gdziekolwiek
 
 ## Licencja
 
