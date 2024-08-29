@@ -1,4 +1,4 @@
-package pl.nadwey.config;
+package pl.nadwey.mchelperbot.config;
 
 import eu.okaeri.configs.OkaeriConfig;
 import eu.okaeri.configs.serdes.standard.StandardSerdes;

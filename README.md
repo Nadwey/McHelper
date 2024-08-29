@@ -6,7 +6,7 @@ Kontrybucje bardzo wskazane (szczególnie, że jest to mój pierwszy bot w JDA)
 
 ## Deweloperka
 
-`gradlew run` - Uruchamia bota.
+`gradlew run` - Uruchamia bota.  
 `gradlew build` - Tworzy jarka z bibliotekami, którego można ładnie, pięknie odpalić gdziekolwiek
 
 ## Licencja

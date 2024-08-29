@@ -1,4 +1,4 @@
-package pl.nadwey.template;
+package pl.nadwey.mchelperbot.template;
 
 import com.github.mustachejava.DefaultMustacheFactory;
 import com.github.mustachejava.Mustache;

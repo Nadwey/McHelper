@@ -1,11 +1,11 @@
-package pl.nadwey.listener;
+package pl.nadwey.mchelperbot.listener;
 
 import com.google.common.io.CharStreams;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import pl.nadwey.McHelper;
-import pl.nadwey.problem.Problem;
+import pl.nadwey.mchelperbot.McHelperBot;
+import pl.nadwey.mchelperbot.problem.Problem;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,7 +28,7 @@ public class MessageListener extends ListenerAdapter {
             StringBuilder message = new StringBuilder();
 
             // TODO: Move this to templates
-            for (Problem problem : McHelper.getInstance().getProblemManager().getProblems()) {
+            for (Problem problem : McHelperBot.getInstance().getProblemManager().getProblems()) {
                 message.append("## ").append(problem.getName()).append("\n\n");
                 message.append(problem.check(log).getMessage());
                 message.append("\n\n");

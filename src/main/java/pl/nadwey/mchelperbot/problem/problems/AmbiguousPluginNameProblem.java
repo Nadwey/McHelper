@@ -1,15 +1,14 @@
-package pl.nadwey.problem.problems;
+package pl.nadwey.mchelperbot.problem.problems;
 
 import com.github.mustachejava.Mustache;
 import lombok.AllArgsConstructor;
-import pl.nadwey.McHelper;
-import pl.nadwey.problem.Problem;
+import pl.nadwey.mchelperbot.McHelperBot;
+import pl.nadwey.mchelperbot.problem.Problem;
 
 import java.io.StringWriter;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class AmbiguousPluginNameProblem extends Problem {
 
@@ -48,7 +47,7 @@ public class AmbiguousPluginNameProblem extends Problem {
         @Override
         public String getMessage() {
             StringWriter writer = new StringWriter();
-            Mustache m = McHelper.getInstance().getTemplateManager().getTemplate(TEMPLATE_NAME);
+            Mustache m = McHelperBot.getInstance().getTemplateManager().getTemplate(TEMPLATE_NAME);
 
             Map<String, Object> context = new HashMap<>();
 

@@ -1,7 +1,7 @@
-package pl.nadwey.problem;
+package pl.nadwey.mchelperbot.problem;
 
 import lombok.Getter;
-import pl.nadwey.problem.problems.AmbiguousPluginNameProblem;
+import pl.nadwey.mchelperbot.problem.problems.AmbiguousPluginNameProblem;
 
 import java.util.ArrayList;
 import java.util.List;

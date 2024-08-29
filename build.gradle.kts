@@ -25,7 +25,7 @@ dependencies {
 }
 
 application {
-    mainClass = "pl.nadwey.McHelper"
+    mainClass = "pl.nadwey.mchelperbot.McHelperBot"
 }
 
 tasks.build {

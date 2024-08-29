@@ -1,18 +1,18 @@
-package pl.nadwey;
+package pl.nadwey.mchelperbot;
 
 import lombok.Getter;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.requests.GatewayIntent;
-import pl.nadwey.config.ConfigManager;
-import pl.nadwey.listener.MessageListener;
-import pl.nadwey.problem.ProblemManager;
-import pl.nadwey.template.TemplateManager;
+import pl.nadwey.mchelperbot.config.ConfigManager;
+import pl.nadwey.mchelperbot.listener.MessageListener;
+import pl.nadwey.mchelperbot.problem.ProblemManager;
+import pl.nadwey.mchelperbot.template.TemplateManager;
 
 @Getter
-public class McHelper {
+public class McHelperBot {
     @Getter
-    private static McHelper instance;
+    private static McHelperBot instance;
 
     private final ConfigManager configManager = new ConfigManager();
     private final TemplateManager templateManager = new TemplateManager();
@@ -20,10 +20,10 @@ public class McHelper {
     private JDA api;
 
     public static void main(String[] args) {
-        new McHelper().setup();
+        new McHelperBot().setup();
     }
 
-    public McHelper() {
+    public McHelperBot() {
         instance = this;
     }
 

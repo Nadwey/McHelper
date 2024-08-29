@@ -1,4 +1,4 @@
-package pl.nadwey.problem;
+package pl.nadwey.mchelperbot.problem;
 
 import lombok.Getter;
 
